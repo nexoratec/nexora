@@ -78,11 +78,17 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground font-body antialiased;
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
   }
   
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 0.02em;
+  }
+  
+  /* Smooth scrolling for better mobile experience */
+  html {
+    scroll-behavior: smooth;
   }
 }
 
@@ -128,5 +134,17 @@ All colors MUST be HSL.
   
   .hover-lift:hover {
     transform: translateY(-4px);
+  }
+  
+  /* Responsive utilities for better mobile experience */
+  @media (max-width: 640px) {
+    .hover-lift:hover {
+      transform: translateY(-2px);
+    }
+  }
+  
+  /* Prevent horizontal scroll on mobile */
+  .overflow-x-clip {
+    overflow-x: clip;
   }
 }
