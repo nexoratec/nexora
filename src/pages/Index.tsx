@@ -190,9 +190,11 @@ const Index = () => {
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Get instant help from our expert team. Real humans, real solutions, available 24/7.
               </p>
-              <Button className="w-full bg-vibrant-yellow hover:bg-vibrant-yellow/90 text-background font-bebas text-lg py-6 rounded-xl transition-smooth hover:scale-105">
-                START CHAT NOW
-              </Button>
+              <a href="tel:+18338212533">
+                <Button className="w-full bg-vibrant-yellow hover:bg-vibrant-yellow/90 text-background font-bebas text-lg py-6 rounded-xl transition-smooth hover:scale-105">
+                  CALL NOW: +1 (833) 821-2533
+                </Button>
+              </a>
             </Card>
 
             <Card className="p-8 bg-gradient-to-br from-vibrant-green/20 to-transparent border-2 border-vibrant-green/30 hover-lift transition-smooth group animate-fade-in" style={{ animationDelay: '0.1s' }}>
@@ -203,9 +205,11 @@ const Index = () => {
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Schedule installation or maintenance at your convenience. Same-day service available.
               </p>
-              <Button className="w-full bg-vibrant-green hover:bg-vibrant-green/90 text-background font-bebas text-lg py-6 rounded-xl transition-smooth hover:scale-105">
-                SCHEDULE NOW
-              </Button>
+              <a href="tel:+18338212533">
+                <Button className="w-full bg-vibrant-green hover:bg-vibrant-green/90 text-background font-bebas text-lg py-6 rounded-xl transition-smooth hover:scale-105">
+                  CALL NOW: +1 (833) 821-2533
+                </Button>
+              </a>
             </Card>
 
             <Card className="p-8 bg-gradient-to-br from-vibrant-pink/20 to-transparent border-2 border-vibrant-pink/30 hover-lift transition-smooth group animate-fade-in" style={{ animationDelay: '0.2s' }}>
@@ -216,9 +220,11 @@ const Index = () => {
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Let us fix that immediately. Quick troubleshooting and instant solutions.
               </p>
-              <Button className="w-full bg-vibrant-pink hover:bg-vibrant-pink/90 text-background font-bebas text-lg py-6 rounded-xl transition-smooth hover:scale-105">
-                GET HELP NOW
-              </Button>
+              <a href="tel:+18338212533">
+                <Button className="w-full bg-vibrant-pink hover:bg-vibrant-pink/90 text-background font-bebas text-lg py-6 rounded-xl transition-smooth hover:scale-105">
+                  CALL NOW: +1 (833) 821-2533
+                </Button>
+              </a>
             </Card>
           </div>
         </div>
@@ -404,18 +410,18 @@ const Index = () => {
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-bebas leading-tight">
             LET'S GET YOU <span className="text-primary">CONNECTED</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
             Ready to experience the future of internet? Get in touch with our team 
             and discover the perfect plan for your needs.
           </p>
-          <Link to="/contact">
+          <a href="tel:+18338212533">
             <Button
               size="lg"
-              className="bg-primary hover:bg-primary/90 text-white font-bebas text-xl px-8 py-6 rounded-xl glow-orange transition-smooth hover:scale-105"
+              className="bg-primary hover:bg-primary/90 text-white font-bebas text-lg sm:text-xl px-6 sm:px-8 py-5 sm:py-6 rounded-xl glow-orange transition-smooth hover:scale-105"
             >
-              GET IN TOUCH <ArrowRight className="ml-2" size={20} />
+              CALL NOW: +1 (833) 821-2533 <ArrowRight className="ml-2" size={18} />
             </Button>
-          </Link>
+          </a>
         </div>
       </section>
 

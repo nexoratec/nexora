@@ -104,14 +104,14 @@ const Services = () => {
                     </div>
                   </div>
                   <div className="flex items-center justify-center md:justify-end">
-                    <Link to="/pricing">
+                    <a href="tel:+18338212533">
                       <Button
                         size="lg"
                         className="bg-primary hover:bg-primary/90 text-white font-bebas text-lg px-6 py-6 rounded-xl glow-orange transition-smooth hover:scale-105"
                       >
-                        VIEW PLANS <ArrowRight className="ml-2" size={18} />
+                        CALL NOW <ArrowRight className="ml-2" size={18} />
                       </Button>
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </Card>
@@ -127,15 +127,15 @@ const Services = () => {
               fiber line, complex network setup, or custom bandwidth allocation, our enterprise 
               team can design a solution tailored specifically for your needs.
             </p>
-            <Link to="/contact">
+            <a href="tel:+18338212533">
               <Button
                 variant="outline"
                 size="lg"
                 className="font-bebas text-lg border-primary text-primary hover:bg-primary hover:text-white transition-smooth"
               >
-                CONTACT ENTERPRISE TEAM
+                CALL: +1 (833) 821-2533
               </Button>
-            </Link>
+            </a>
           </div>
 
           {/* Service Benefits */}

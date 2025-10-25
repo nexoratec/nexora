@@ -127,7 +127,7 @@ const Pricing = () => {
                   ))}
                 </ul>
 
-                <Link to="/contact">
+                <a href="tel:+18338212533">
                   <Button
                     className={`w-full font-bebas text-lg py-6 rounded-xl transition-smooth ${
                       plan.popular
@@ -135,9 +135,9 @@ const Pricing = () => {
                         : "bg-secondary hover:bg-primary hover:text-white"
                     }`}
                   >
-                    GET STARTED <ArrowRight className="ml-2" size={18} />
+                    CALL NOW <ArrowRight className="ml-2" size={18} />
                   </Button>
-                </Link>
+                </a>
               </Card>
             ))}
           </div>

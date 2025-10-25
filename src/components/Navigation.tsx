@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,6 +45,12 @@ const Navigation = () => {
                 {item.name}
               </Link>
             ))}
+            <a href="tel:+18338212533">
+              <Button className="ml-2 bg-primary hover:bg-primary/90 text-white font-bebas px-4 py-2 rounded-lg glow-orange transition-smooth hover:scale-105">
+                <Phone size={18} className="mr-2" />
+                +1 (833) 821-2533
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -72,6 +79,12 @@ const Navigation = () => {
                 {item.name}
               </Link>
             ))}
+            <a href="tel:+18338212533" onClick={() => setIsOpen(false)}>
+              <Button className="w-full bg-primary hover:bg-primary/90 text-white font-bebas px-4 py-3 rounded-lg glow-orange transition-smooth">
+                <Phone size={18} className="mr-2" />
+                +1 (833) 821-2533
+              </Button>
+            </a>
           </div>
         )}
       </div>

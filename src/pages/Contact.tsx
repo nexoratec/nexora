@@ -120,8 +120,10 @@ const Contact = () => {
               <Card className="p-6 bg-card hover-lift transition-smooth">
                 <Phone className="w-8 h-8 text-primary mb-3" />
                 <h3 className="font-bebas text-xl mb-2">PHONE</h3>
-                <p className="text-muted-foreground text-sm">1-800-NEXORA</p>
-                <p className="text-muted-foreground text-sm">(1-800-639-6721)</p>
+                <a href="tel:+18338212533" className="text-primary hover:text-primary/80 transition-smooth">
+                  <p className="text-sm font-semibold">+1 (833) 821-2533</p>
+                </a>
+                <p className="text-muted-foreground text-sm mt-1">Available 24/7</p>
               </Card>
 
               <Card className="p-6 bg-card hover-lift transition-smooth">

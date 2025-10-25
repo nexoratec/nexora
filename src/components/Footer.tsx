@@ -55,18 +55,20 @@ const Footer = () => {
           </div>
 
           {/* Contact */}
-          <div>
-            <h3 className="font-bebas text-xl mb-4">Contact</h3>
+          <div className="text-center sm:text-left">
+            <h3 className="font-bebas text-lg sm:text-xl mb-3 sm:mb-4">Contact</h3>
             <ul className="space-y-3">
-              <li className="flex items-start space-x-3">
+              <li className="flex items-start space-x-3 justify-center sm:justify-start">
                 <Mail size={18} className="text-primary mt-1 flex-shrink-0" />
                 <span className="text-muted-foreground text-sm">support@nexora.tech</span>
               </li>
-              <li className="flex items-start space-x-3">
+              <li className="flex items-start space-x-3 justify-center sm:justify-start">
                 <Phone size={18} className="text-primary mt-1 flex-shrink-0" />
-                <span className="text-muted-foreground text-sm">1-800-NEXORA</span>
+                <a href="tel:+18338212533" className="text-muted-foreground hover:text-primary transition-smooth text-sm">
+                  +1 (833) 821-2533
+                </a>
               </li>
-              <li className="flex items-start space-x-3">
+              <li className="flex items-start space-x-3 justify-center sm:justify-start">
                 <MapPin size={18} className="text-primary mt-1 flex-shrink-0" />
                 <span className="text-muted-foreground text-sm">123 Tech Plaza, Digital City</span>
               </li>
